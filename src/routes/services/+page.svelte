@@ -57,7 +57,7 @@
                         </h2>
                         <div class="flex flex-wrap gap-[0.25rem]">
                             <!-- Open the modal using ID.showModal() method -->
-                            <button class="btn bg-[#e7ecf6] text-white hover:bg-[#e7ecf6] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal2)}}>
+                            <button class="btn bg-[#e7ecf6] text-black hover:bg-[#e7ecf6] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal2)}}>
                                 learn More<iconify-icon icon="line-md:cloud-download-outline-loop" width=25 height=25 />
                             </button>
                             <dialog bind:this={modal2} class="modal justify-center">
