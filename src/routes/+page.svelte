@@ -51,21 +51,15 @@
 		</PinContainer>
 		<CardContainer bind:isMouseEntered className="flex inter-var md:pr-32 lg:pr-80 xl:pr-0">
 			<CardBody
-				className="bg-gray-50 relative group/card mt-5 dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-slate-500 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border"
+				className="bg-gray-50 relative group/card mt-5 dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-slate-200 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border"
 			>
 				<CardItem
 					{isMouseEntered}
 					translateZ="50"
 					className="text-xl font-bold text-neutral-600 dark:text-white"
 				>
-					Addresses for everyone.
-				</CardItem>
-				<CardItem
-					{isMouseEntered}
-					translateZ="60"
-					className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-				>
-				Digital addressing, for the entire world
+					
+					<img class="w-96 pl-10" src="https://i.postimg.cc/43b0vYLV/image-removebg-preview.png" alt="">
 				</CardItem>
 				<CardItem {isMouseEntered} translateZ="100" className="w-full mt-4">
 					<img

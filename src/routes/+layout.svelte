@@ -39,8 +39,8 @@
               <li><a href="/learn">Learn More</a></li>
             </ul>
           </div>
-          <div class="w-32">
-            <img src="https://signhubdigital.com/images/general/1701764841.png  " alt="Tailwind-CSS-Avatar-component" />
+          <div class="w-44">
+            <img src="https://i.postimg.cc/43b0vYLV/image-removebg-preview.png" alt="Tailwind-CSS-Avatar-component" />
           </div>
         </div>
         <div class="navbar-center hidden lg:flex">
