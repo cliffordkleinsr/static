@@ -39,7 +39,7 @@
               <li><a href="/learn">Learn More</a></li>
             </ul>
           </div>
-          <div class="w-44">
+          <div class="w-44 min-[320px]:w-32">
             <img src="https://i.postimg.cc/43b0vYLV/image-removebg-preview.png" alt="Tailwind-CSS-Avatar-component" />
           </div>
         </div>
@@ -51,17 +51,17 @@
             <li><a class="{$page.url.pathname === '/learn'?'bg-slate-100':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/learn  ">Learn More</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end min-[320px]:pr-5">
               {#if isDayTime}
                   <iconify-icon icon="meteocons:clear-day" width="22" height="22"></iconify-icon> 
               {:else}
-              <iconify-icon icon="meteocons:clear-night" width="22" height="22"></iconify-icon>
+                <iconify-icon icon="meteocons:clear-night" width="22" height="22"></iconify-icon>
               {/if}
             <a href="/">
-            <ul class="menu menu-horizontal px-1">
-              <li><a class="{$page.url.pathname === '/signs'?'bg-neutral-900':''} rounded-md text-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/signs">Our Signs</a></li>
-            </ul>
-          </a>
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="{$page.url.pathname === '/signs'?'bg-slate-100':''} rounded-md text-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/signs">Our Signs</a></li>
+              </ul>
+            </a>
         </div>
       </div>
 </header>
