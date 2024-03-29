@@ -9,9 +9,9 @@
     <div class="divider py-[2rem] pt-7"></div>
 </div>
 
-<div class="flex min-[320px]:flex-wrap sm:flex-wrap lg:flex-nowrap gap-4 px-10 pb-6 justify-center" transition:fade>
+<div class="flex flex-wrap sm:flex-wrap lg:flex-nowrap gap-4 px-10 pb-6 justify-center" transition:fade>
     <div class="card lg:card-side bg-base-100 shadow-2xl lg:w-[50em] lg:h-[40em] sm:w-[29rem]">
-        <div class="min-[320px]:w-[20rem] sm:w-[28rem] lg:w-[225em] rounded-md px-2">
+        <div class="sm:w-[28rem] lg:w-[225em] rounded-md px-2">
             <figure>
                 <img
                 class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform"
@@ -30,8 +30,8 @@
             </p>
         </div>
     </div>
-    <div class="flex flex-col gap-5 min-[320px]:items-center">
-        <div class="card min-[320px]:w-[20rem] lg:w-[29rem] shadow-xl image-full scale-95 transition ease-in-out duration-500 transform hover:scale-100">
+    <div class="flex flex-col gap-5">
+        <div class="card lg:w-[29rem] shadow-xl image-full scale-95 transition ease-in-out duration-500 transform hover:scale-100">
             <figure>
                 <img
                     src="https://images.unsplash.com/photo-1552937075-967cf58b74a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGFmcmljYSUyMGNlbnRyaWN8ZW58MHx8MHx8fDA%3D"
@@ -50,7 +50,7 @@
                 </p>
             </div>
         </div>
-        <div class="card min-[320px]:w-[20rem] lg:w-[29rem] bg-base-100 shadow-xl image-full scale-95 transition ease-in-out duration-500 transform hover:scale-100">
+        <div class="card lg:w-[29rem] bg-base-100 shadow-xl image-full scale-95 transition ease-in-out duration-500 transform hover:scale-100">
             <figure>
                 <img
                     src="https://images.unsplash.com/photo-1551656222-71345ab13814?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

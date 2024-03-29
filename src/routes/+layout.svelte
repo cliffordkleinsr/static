@@ -23,8 +23,8 @@
   onDestroy(() => clearInterval(interval))
   // console.log(interval)
 </script>
-<header data-theme="light">
-    <div class="navbar bg-base-100">
+<header data-theme="pastel">
+    <div class="navbar bg-base-200">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -39,16 +39,16 @@
               <li><a href="/learn">Learn More</a></li>
             </ul>
           </div>
-          <div class="w-44 min-[320px]:w-32">
+          <div class="w-40">
             <img src="https://i.postimg.cc/43b0vYLV/image-removebg-preview.png" alt="Tailwind-CSS-Avatar-component" />
           </div>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 gap-1">
-            <li><a class="{$page.url.pathname === '/'?' bg-slate-100':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/">Home</a></li>
-            <li><a class="{$page.url.pathname === '/about'?'bg-slate-100':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/about">About</a></li>
-            <li><a class="{$page.url.pathname === '/services'?'bg-slate-100':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/services  ">Services</a></li>
-            <li><a class="{$page.url.pathname === '/learn'?'bg-slate-100':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/learn  ">Learn More</a></li>
+            <li><a class="{$page.url.pathname === '/'?' bg-slate-200':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/">Home</a></li>
+            <li><a class="{$page.url.pathname === '/about'?'bg-slate-200':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/about">About</a></li>
+            <li><a class="{$page.url.pathname === '/services'?'bg-slate-200':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/services  ">Services</a></li>
+            <li><a class="{$page.url.pathname === '/learn'?'bg-slate-200':''} rounded-md hover:underline decoration-2 decoration-sky-500 underline-offset-8" href="/learn  ">Learn More</a></li>
           </ul>
         </div>
         <div class="navbar-end min-[320px]:pr-5">

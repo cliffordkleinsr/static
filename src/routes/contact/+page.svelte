@@ -1,9 +1,18 @@
 <script lang="ts">
+    import { slide } from 'svelte/transition'
+    import { sineInOut } from 'svelte/easing'
 
+    let toast:boolean = false
+    const showToast = () =>{
+        toast = true
+        setTimeout(() => {
+            toast = false
+        }, 2000)
+    }
 </script>
 <div class="flex flex-col p-5">
     <div class="card w-full h-full bg-base-100 shadow-xl">
-        <div class="card-body px-20">
+        <div class="card-body lg:px-20">
             <div class="space-y-5">
                 <h2 class="card-title text-3xl">Our Ethos</h2>
                 <p class=" italic">"Our commitment to Sustainability, Social Responsibility, and Inclusivity"</p>
@@ -31,7 +40,7 @@
                     </h1>
                     <div class="divider py-2 pt-5"></div>
                     <div class="flex-flex-col space-y-6">
-                        <div class="flex flex-nowrap w-96 gap-9">
+                        <div class="flex lg:flex-nowrap w-96 gap-9 flex-wrap">
                             <label class="input input-bordered flex items-center gap-2">
                                 <input type="text" class="grow" placeholder="Name" />
                                 <iconify-icon icon="system-uicons:user-male"  style="color: black"></iconify-icon>
@@ -49,7 +58,13 @@
                         </div>
                         <textarea placeholder="Tell Us More" class="textarea textarea-bordered textarea-lg w-full max-w-xs" ></textarea>
                     </div>
-                    <button class="btn bg-[#9BBA54] hover:bg-[#9BBA54] text-white   w-1/3">Send Message</button>
+                    {#if toast}
+                        <div role="alert" class="alert alert-success lg:w-1/6 scale-90" transition:slide={{duration:350, axis:'x', easing:sineInOut}}>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <span>Your Message has been sent</span>
+                        </div>
+                    {/if}
+                    <button on:click|preventDefault={showToast} class="btn bg-[#9BBA54] hover:bg-[#9BBA54] text-white lg:w-1/3">Send Message</button>
                 </form>
             </div>
         </div>

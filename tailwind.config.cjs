@@ -6,7 +6,7 @@ const config = {
 		extend: {}
 	},
 	daisyui: {
-		themes: ["light", "dark", "cupcake", "black"],
+		themes: ["light", "dark", "black", "cupcake", "winter","pastel"],
 	},
 	plugins: [
 		require('@tailwindcss/typography'),
