@@ -1,8 +1,6 @@
 <script>
 	import { PinContainer } from "$lib/components/ui/ThreeDPin";
 	import { CardContainer, CardItem, CardBody} from "$lib/components/ui/ThreeDCardEffect"
-	import OWa from "$lib/imgs/owash.png"
-	import plus from "$lib/imgs/pscode.png"
 	import { TextGenerateEffect } from "$lib/components/ui/TextGenerateEffect";
 
 	let isMouseEntered = false
@@ -39,7 +37,7 @@
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<div class="avatar mt-2 flex w-full justify-center">
 					<div class="w-20 lg:w-36 rounded-full ring ring-tertiary ring-offset-base-100 ring-offset-2">
-						<img src={OWa}/>
+						<img src="https://i.postimg.cc/9M0km4ZT/owash.png"/>
 					</div>
 				</div>
 				<!-- <div
@@ -62,7 +60,7 @@
 				</CardItem>
 				<CardItem {isMouseEntered} translateZ="100" className="w-full mt-4">
 					<img
-						src="{plus}"
+						src="https://i.postimg.cc/GpHP9vgc/pscode.png"
 						height="1000"
 						width="1000"
 						class="h-60 w-full rounded-xl object-cover group-hover/card:shadow-xl"
@@ -85,7 +83,6 @@
 								About Us 
 							</h1>
 						</a>
-						<iconify-icon class="pt-[0.45em]" icon="line-md:question-circle"  style="color: rgb(66 133 244/1)"/>
 					</div>
 					<p>Learn about SignHub's mission, vision, and commitment to empowering communities through innovative addressing solutions.</p>	
 				</div>
@@ -96,7 +93,6 @@
 								Services 
 							</h1>
 						</a>
-						<iconify-icon class="pt-[0.45em]" icon="line-md:rss" style="color: rgb(66 133 244/1)"/>
 					</div>
 					<p>
 						Explore our comprehensive range of services, including geospatial expertise, physical addressing signs,
@@ -112,7 +108,6 @@
 									Learn More 
 								</h1>
 							</a>
-							<iconify-icon class="pt-[0.45em]" icon="line-md:document-report" style="color: rgb(66 133 244/1)"/>
 						</div>
 						<p> 
 							Dive into the benefits and advantages of our address-based databases, and discover the various types and
@@ -126,7 +121,6 @@
 									Project Highlights 
 								</h1>
 							</a>
-							<iconify-icon class="pt-[0.45em]" icon="line-md:compass-loop" style="color: rgb(66 133 244/1)"/>
 						</div>
 						<p>
 							See the impact of our collaboration with Google Certified Partners and our successful projects in South
@@ -142,7 +136,6 @@
 								Let`s Connect 
 							</h1>
 						</a>
-						<iconify-icon class="pt-[0.45em]" icon="line-md:telegram" style="color: rgb(66 133 244/1)"/>
 						</div>
 						<p> 
 							See the impact of our collaboration with Google Certified Partners and our successful projects in South

@@ -17,20 +17,18 @@
                         <div class="flex flex-wrap gap-[0.25rem]">
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="btn bg-[#0c162c] text-white hover:bg-[#7E57C2] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal1)}}>
-                                learn More<iconify-icon icon="line-md:cloud-download-outline-loop" width=25 height=25 />
+                                learn More
                             </button>
                             <dialog bind:this={modal1} class="modal justify-center">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/wNOs3LlsH6k?si=Sky-Ks2Iq2PxBNI2"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>
-                                <div class="modal-action">
-                                    <form method="dialog">
-                                      <!-- if there is a button in form, it will close the modal -->
-                                      <button class="btn btn-error">Close <iconify-icon icon="line-md:close"  style="color: black"></iconify-icon></button>
-                                    </form>
+                                <div class="modal-box">
+                                    <h1 class="font-mono">Removed For Production</h1>
+                                
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn btn-error">Close</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </dialog>
                         </div>
@@ -58,20 +56,17 @@
                         <div class="flex flex-wrap gap-[0.25rem]">
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="btn bg-[#e7ecf6] text-black hover:bg-[#e7ecf6] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal2)}}>
-                                learn More<iconify-icon icon="line-md:cloud-download-outline-loop" width=25 height=25 />
+                                learn More
                             </button>
                             <dialog bind:this={modal2} class="modal justify-center">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/LJ9zEkXearU?si=BFsoDFZy_M7M3BpB"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>
-                                <div class="modal-action">
-                                    <form method="dialog">
-                                      <!-- if there is a button in form, it will close the modal -->
-                                      <button class="btn btn-error">Close <iconify-icon icon="line-md:close"  style="color: black"></iconify-icon></button>
-                                    </form>
+                                <div class="modal-box">
+                                    <h1 class="font-mono">Removed For Production</h1>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn btn-error">Close</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </dialog>
                         </div>
@@ -99,20 +94,17 @@
                         <div class="flex flex-wrap gap-[0.25rem]">
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="btn bg-[#9BBA54] text-white hover:bg-[#9BBA54] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal3)}}>
-                                learn More<iconify-icon icon="line-md:cloud-download-outline-loop" width=25 height=25 />
+                                learn More
                             </button>
                             <dialog bind:this={modal3} class="modal justify-center">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/seVeKo-9D4E?si=uZf2C5FYK7e5-HGU"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>
-                                <div class="modal-action">
-                                    <form method="dialog">
-                                      <!-- if there is a button in form, it will close the modal -->
-                                      <button class="btn btn-error">Close <iconify-icon icon="line-md:close"  style="color: black"></iconify-icon></button>
-                                    </form>
+                                <div class="modal-box">
+                                    <h1 class="font-mono">Removed For Production</h1>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                        <!-- if there is a button in form, it will close the modal -->
+                                        <button class="btn btn-error">Close</button>
+                                        </form>
+                                    </div>
                                 </div>
                             </dialog>
                         </div>

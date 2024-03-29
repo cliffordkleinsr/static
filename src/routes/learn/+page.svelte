@@ -93,10 +93,10 @@
                     Download Our latest company profile
                 </p>
                 <div class="flex flex-nowrap gap-5">
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white ">EN<iconify-icon icon="line-md:text-box-multiple"></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">FR<iconify-icon icon="line-md:text-box-multiple"></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">SW<iconify-icon icon="line-md:text-box-multiple"></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">POR<iconify-icon icon="line-md:text-box-multiple"></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white ">EN<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">FR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">SW<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">POR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
                 </div>
                 
 
@@ -114,7 +114,7 @@
                     database management and technology distribution.
                 </p>
                 <div class="flex lg:flex-nowrap gap-5 flex-wrap">
-                    <img src="https://i.ibb.co/k2g11mj/image-removebg-preview.png" alt="">
+                    <!-- <img src="https://i.ibb.co/k2g11mj/image-removebg-preview.png" alt=""> -->
                     <iconify-icon icon="logos:google" width="130" height="130"></iconify-icon>
                 </div>
             </div>

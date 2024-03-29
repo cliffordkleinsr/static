@@ -53,9 +53,9 @@
         </div>
         <div class="navbar-end min-[320px]:pr-5">
               {#if isDayTime}
-                  <iconify-icon icon="meteocons:clear-day" width="22" height="22"></iconify-icon> 
+                  <iconify-icon icon="wi:day-sunny" width="22" height="22" style="color: #b37100"></iconify-icon>
               {:else}
-                <iconify-icon icon="meteocons:clear-night" width="22" height="22"></iconify-icon>
+                <iconify-icon icon="wi:moon-waxing-crescent-4" width="22" height="22" style="color: #364cba"></iconify-icon>
               {/if}
             <a href="/">
               <ul class="menu menu-horizontal px-1">
