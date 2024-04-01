@@ -17,14 +17,14 @@
       <h6 class="footer-title">Company</h6> 
       <a href="/about" class="link link-hover">About us</a>
       <a href="/contact" class="link link-hover">Lets Connect</a>
-      <a href="/" class="link link-hover">Our Impact</a>
-      <a href="/" class="link link-hover">Blog</a>
+      <a href="/impact" class="link link-hover">Our Impact</a>
+      <a href="/blog" class="link link-hover">Blog</a>
     </nav> 
     <nav>
       <h6 class="footer-title">Legal</h6> 
-      <a href="/" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Terms of use</a>
-      <a href="/" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Privacy policy</a>
-      <a href="/" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Cookie policy</a>
+      <a href="/terms" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Terms of use</a>
+      <a href="/privacy" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Privacy policy</a>
+      <a href="/cookie" class="link link-hover"><iconify-icon icon="material-symbols:arrow-forward-ios-rounded"></iconify-icon> Cookie policy</a>
     </nav>
     <nav>
       <h6 class="footer-title">Social</h6> 

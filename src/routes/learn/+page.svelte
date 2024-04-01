@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col p-5">
-    <div class="card w-full bg-base-100 shadow-2xl">
+    <div class="card w-full bg-base-100 shadow-2xl antialiased">
         <div class="card-body lg:px-20">
             <h2 class="card-title text-3xl">Learn More</h2>
             <div class="divider pt-5"></div>
@@ -24,7 +24,7 @@
                             fostering growth and inclusivity.
                         </p>
                         <!-- Open the modal using ID.showModal() method -->
-                        <button class="btn bg-[#0c162c] text-white" on:click={()=>{openModal(modal1)}}>Explore</button>
+                        <button class="btn bg-[#0c162c] text-white hover:bg-[#2f394e]" on:click={()=>{openModal(modal1)}}>Explore</button>
                         <dialog bind:this={modal1}  class="modal">
                                 <img class="w-[57em]" src="https://i.ibb.co/k49DCDz/image.png" alt="">
                                 <div class="modal-action">
@@ -47,7 +47,7 @@
                             support data-driven decision-making and public engagement
                         </p>
                         <!-- Open the modal using ID.showModal() method -->
-                        <button class="btn bg-[#0c162c] text-white" on:click={()=>{openModal(modal2)}}>Explore</button>
+                        <button class="btn bg-[#0c162c] text-white hover:bg-[#2f394e]" on:click={()=>{openModal(modal2)}}>Explore</button>
                         <dialog bind:this={modal2}  class="modal">
                                 <img class="w-[57em]" src="https://i.ibb.co/rxx8b1R/image.png" alt="">
                                 <div class="modal-action">
@@ -71,7 +71,7 @@
                             resource allocation.
                         </p>
                         <!-- Open the modal using ID.showModal() method -->
-                        <button class="btn bg-[#0c162c] text-white" on:click={()=>{openModal(modal3)}}>Explore</button>
+                        <button class="btn bg-[#0c162c] text-white hover:bg-[#2f394e]" on:click={()=>{openModal(modal3)}}>Explore</button>
                         <dialog bind:this={modal3}  class="modal">
                                 <img class="w-[57em]" src="https://i.ibb.co/Y2TKKS8/image.png" alt="">
                                 <div class="modal-action">
@@ -93,10 +93,10 @@
                     Download Our latest company profile
                 </p>
                 <div class="flex flex-nowrap gap-5">
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white ">EN<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">FR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">SW<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#0C162C] text-white">POR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white ">EN<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">FR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">SW<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">PT<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
                 </div>
                 
 

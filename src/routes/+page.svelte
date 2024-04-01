@@ -1,12 +1,11 @@
-<script>
+<script lang="ts">
 	import { PinContainer } from "$lib/components/ui/ThreeDPin";
-	import { CardContainer, CardItem, CardBody} from "$lib/components/ui/ThreeDCardEffect"
 	import { TextGenerateEffect } from "$lib/components/ui/TextGenerateEffect";
 
-	let isMouseEntered = false
+	
 </script>
 <div class="hero h-[20em] sm:h-[20em] lg:h-[29rem]"
-	style="background-image: url('https://images.unsplash.com/photo-1604072390964-b26e6a6fac29?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+	style="background-image: url('https://academy-public.coinmarketcap.com/srd-optimized-uploads/685802d68975480c8f252a447c148114.png');">
 	<div class="hero-overlay"></div>
 	<div class="hero-content text-white mt-5">
 		<div class="flex flex-col h-full space-y-4">
@@ -17,11 +16,11 @@
 		</div>
 	</div>
 </div>
-<div class="flex flex-col w-full pt-9 py-5">
+<div class="flex flex-col w-full pt-5 gap-4">
 	<div class="text-xl font-semibold text-center">
 		<p class="text-xl text-[#0c162c] font-bold">OVERVIEW</p>
 	</div>
-	<div class="flex flex-wrap justify-center px-4 md:space-x-[10em] lg:space-x-[22em] pt-5 ">
+	<div class="flex flex-wrap justify-center px-4 md:space-x-[10em] lg:space-x-[22em] pt-5 pb-5">
 		<PinContainer title="PQ97+2F" href="https://aceternity.sveltekit.io">
 			<div
 				class="flex h-80 w-[340px] sm:w-[27rem] md:w-[27rem] lg:w-[45rem] flex-col p-4 tracking-tight text-slate-100/50"
@@ -46,32 +45,9 @@
 				/> -->
 			</div>
 		</PinContainer>
-		<CardContainer bind:isMouseEntered className="flex inter-var md:pr-32 lg:pr-80 xl:pr-0">
-			<CardBody
-				className="bg-gray-50 relative group/card mt-5 dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-slate-200 dark:border-white/[0.2] border-black/[0.1] w-[340px] sm:w-[30rem] h-auto rounded-xl p-6 border"
-			>
-				<CardItem
-					{isMouseEntered}
-					translateZ="50"
-					className="text-xl font-bold text-neutral-600 dark:text-white"
-				>
-					
-					<img class="w-96 pl-10" src="https://i.postimg.cc/43b0vYLV/image-removebg-preview.png" alt="">
-				</CardItem>
-				<CardItem {isMouseEntered} translateZ="100" className="w-full mt-4">
-					<img
-						src="https://i.postimg.cc/GpHP9vgc/pscode.png"
-						height="1000"
-						width="1000"
-						class="h-60 w-full rounded-xl object-cover group-hover/card:shadow-xl"
-						alt="thumbnail"
-					/>
-				</CardItem>
-			</CardBody>
-		</CardContainer>
 	</div>
 
-	<div class="divider py-[2rem] pt-2"></div>
+	<div class="divider py-[2rem] pt-5"></div>
 
 	<div class="flex flex-col items-center pl-4 pb-10">
 		<div class="flex flex-wrap sm:flex-wrap lg:flex-nowrap sm:px-0 lg:px-10 gap-9">

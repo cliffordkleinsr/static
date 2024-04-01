@@ -3,7 +3,7 @@
   
 </script>
 <div class="text-start w-full h-full pt-5">
-    <h2 class="text-3xl px-20 pt-5">
+    <h2 class="card-title text-3xl px-20 pt-5">
         About Us  
     </h2>
     <div class="divider py-[2rem] pt-7"></div>
@@ -14,7 +14,7 @@
         <div class="sm:w-[28rem] lg:w-[225em] rounded-md px-2">
             <figure>
                 <img
-                class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform"
+                    class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform rounded-l-lg"
                     src='https://images.unsplash.com/photo-1579196173525-5043ea2f84c2?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                     alt="Album"
                 />

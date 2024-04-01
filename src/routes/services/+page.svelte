@@ -13,7 +13,7 @@
             <div class="flex flex-wrap gap-8 justify-center pb-5">
                 <div class="card w-[32rem] bg-base-100 shadow-2xl scale-75 hover:scale-100 transform transition ease-in-out duration-500">
                     <div class="card-body gap-6 tracking-normal">
-                        <h2 class="card-title text-xl">Geospatial Expertise and Database Management</h2>
+                        <h2 class="card-title text-xl">GIS Map Intergration And Custom Database Generation</h2>
                         <div class="flex flex-wrap gap-[0.25rem]">
                             <!-- Open the modal using ID.showModal() method -->
                             <button class="btn bg-[#0c162c] text-white hover:bg-[#7E57C2] transition ease-in-out delay-15 hover:-translate-y-1 hover:scale-105 duration-500" on:click={()=>{openModal(modal1)}}>
@@ -33,10 +33,16 @@
                             </dialog>
                         </div>
                         <p>
-                            Utilizing Plus Codes, we identify locations to establish a precise addressing system seamlessly
-                            integrated into the databases we develop. Our geospatial experts possess in-depth knowledge of
-                            geographical data and mapping technology, tailored specifically to the African continent's
-                            diverse markets and unique landscape
+                            Experience the cutting-edge synergy of GIS map integration and dynamic database generation!
+                            Elevate your data management to unparalleled heights with our innovative solution.
+                            <br>
+                            Unlock the power to craft bespoke database schemas seamlessly fused with our advanced map
+                            platform. Witness the seamless aggregation of data and the creation of unique, tailor-made
+                            collections tied to precise addresses. Embark on a journey where innovation meets precision,
+                            and possibilities are limitless.
+                            <br>
+                            NGO's, government organizations, and players in the digital economy, join us in
+                            revolutionizing the way you interact with your data to impact the communities you serve!
                         </p>
                     </div>
                     <figure>
