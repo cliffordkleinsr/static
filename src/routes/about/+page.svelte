@@ -14,7 +14,7 @@
         <div class="sm:w-[28rem] lg:w-[225em] rounded-md px-2">
             <figure>
                 <img
-                    class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform rounded-l-lg h-[38em]"
+                    class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform rounded-l-lg lg:h-[38em]"
                     src='https://www.ipc-undp.org/sites/default/files/Thumb%20Bulletin%20%285%29_0.png'
                     alt="Album"
                 />
