@@ -14,8 +14,8 @@
         <div class="sm:w-[28rem] lg:w-[225em] rounded-md px-2">
             <figure>
                 <img
-                    class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform rounded-l-lg"
-                    src='https://images.unsplash.com/photo-1579196173525-5043ea2f84c2?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                    class="hover:scale-105 hover:translate-x-5 transition duration-500 ease-in-out transform rounded-l-lg h-[38em]"
+                    src='https://www.ipc-undp.org/sites/default/files/Thumb%20Bulletin%20%285%29_0.png'
                     alt="Album"
                 />
             </figure>

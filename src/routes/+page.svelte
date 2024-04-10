@@ -5,7 +5,7 @@
 	
 </script>
 <div class="hero h-[20em] sm:h-[20em] lg:h-[29rem]"
-	style="background-image: url('https://academy-public.coinmarketcap.com/srd-optimized-uploads/685802d68975480c8f252a447c148114.png');">
+	style="background-image: url('https://africanews.space/wp-content/uploads/2021/05/mega-constellation-satellites-on-the-horizon.jpg');">
 	<div class="hero-overlay"></div>
 	<div class="hero-content text-white mt-5">
 		<div class="flex flex-col h-full space-y-4">
@@ -23,9 +23,8 @@
 	<div class="flex flex-wrap justify-center px-4 md:space-x-[10em] lg:space-x-[22em] pt-5 pb-5">
 		<PinContainer title="PQ97+2F" href="https://aceternity.sveltekit.io">
 			<div
-				class="flex h-80 w-[340px] sm:w-[27rem] md:w-[27rem] lg:w-[45rem] flex-col p-4 tracking-tight text-slate-100/50"
+				class="flex h-80 w-[340px] sm:w-[27rem] md:w-[27rem] lg:w-[65rem] flex-col p-4 tracking-tight text-slate-100/50"
 			>
-				<!-- <h3 class="!m-0 max-w-xs !pb-2 text-base font-bold text-slate-100">Aceternity UI</h3> -->
 				<div class="!m-0 !p-0 text-sm">
 					<span class="text-slate-800 tracking-normal text-sm">
 						<strong class=" text-lg text-[#0c162c]">SignHub International Limited</strong> is at the forefront of transforming digital addressing services with a revolutionary approach.
@@ -39,14 +38,9 @@
 						<img src="https://i.postimg.cc/9M0km4ZT/owash.png"/>
 					</div>
 				</div>
-				<!-- <div
-					class="mt-4 flex w-full flex-1 rounded-lg bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"
-					
-				/> -->
 			</div>
 		</PinContainer>
 	</div>
-
 	<div class="divider py-[2rem] pt-5"></div>
 
 	<div class="flex flex-col items-center pl-4 pb-10">
@@ -55,7 +49,7 @@
 				<div class="flex flex-col gap-5">
 					<div class="flex flex-wrap gap-[0.23em]">
 						<a href="/about">
-							<h1 class="text-xl text-[#0c162c]">
+							<h1 class="text-xl text-[#0c162c] hover:underline decoration-2 decoration-sky-900 underline-offset-8">
 								About Us 
 							</h1>
 						</a>
@@ -65,7 +59,7 @@
 				<div class="space-y-4">
 					<div class="flex flex-wrap gap-[0.23em]">
 						<a href="/services">
-							<h1 class="text-xl text-[#0c162c]">
+							<h1 class="text-xl text-[#0c162c] hover:underline decoration-2 decoration-sky-900 underline-offset-8">
 								Services 
 							</h1>
 						</a>
@@ -80,7 +74,7 @@
 					<div class="flex flex-col gap-5">
 						<div class="flex flex-wrap gap-[0.23em]">
 							<a href="/learn">
-								<h1 class="text-xl text-[#0c162c]">
+								<h1 class="text-xl text-[#0c162c] hover:underline decoration-2 decoration-sky-900 underline-offset-8">
 									Learn More 
 								</h1>
 							</a>
@@ -93,7 +87,7 @@
 					<div class="space-y-4">
 						<div class="flex flex-wrap gap-[0.23em]">
 							<a href="/highlights">
-								<h1 class="text-xl text-[#0c162c]">
+								<h1 class="text-xl text-[#0c162c] hover:underline decoration-2 decoration-sky-900 underline-offset-8">
 									Project Highlights 
 								</h1>
 							</a>
@@ -108,7 +102,7 @@
 					<div class="flex flex-col gap-5">
 						<div class="flex flex-wrap gap-[0.25em]">
 						<a href="/contact">
-							<h1 class="text-xl text-[#0c162c]">
+							<h1 class="text-xl text-[#0c162c] hover:underline decoration-2 decoration-sky-900 underline-offset-8">
 								Let`s Connect 
 							</h1>
 						</a>

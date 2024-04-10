@@ -93,10 +93,10 @@
                     Download Our latest company profile
                 </p>
                 <div class="flex flex-nowrap gap-5">
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white ">EN<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">FR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">SW<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
-                    <a href="/"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">PT<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="https://www.dropbox.com/scl/fi/xial18un5e06nknmtr6rg/company_profile.pdf?rlkey=7ymgirv5cooijr7ofyso34vo8&dl=0"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">EN<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="https://www.dropbox.com/scl/fi/3ilob5es96lonxxgdnbd7/company_profile_fr.pdf?rlkey=gmu3topfzretp269q7r63lvuv&dl=0"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">FR<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="https://www.dropbox.com/scl/fi/7teggrhk6z8w2d14atr9q/company_profile_sw.pdf?rlkey=nucpvovuc63ifprwznfz9n1yx&dl=0"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">SW<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
+                    <a href="https://www.dropbox.com/scl/fi/941pozwhotig2hpvh7l3f/company_profile_pr.pdf?rlkey=e0j3hq72vmg13llqdbx8ll8nm&dl=0"><button class="btn bg-[#0C162C] hover:bg-[#2f394e] text-white">PT<iconify-icon icon="mdi:folder-google-drive" width=18 height=18></iconify-icon></button></a>
                 </div>
                 
 
